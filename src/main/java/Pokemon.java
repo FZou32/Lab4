@@ -54,6 +54,7 @@ public class Pokemon {
      * A 20 sided dice used to calculate the attack and defense bonuses during an attack.
      */
     Dice d20;
+    Pokemon tempPokemon = new Pokemon();
 
     /**
      * Create a new Pokemon with default values.

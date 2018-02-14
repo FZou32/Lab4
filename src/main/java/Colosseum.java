@@ -72,6 +72,25 @@ public class Colosseum {
      *         Implement this function.
      */
     public static Pokemon buildPokemon() {
+        int hitPoints;
+        int attackLevel;
+        int defenseLevel;
+        while (hitPoints < 50 && hitPoints >= 1){
+
+            }
+
+            if (hitPoints >= 50 || hitPoints < 1) {
+            System.out.println("Sorry. Hit points must be between 1 and 50:"+" "+ hitPoints);
+        }
+        if (attackLevel >= 50 || attackLevel < 1 ) {
+            System.out.println("Sorry. attackLevel must be between 1 and 50:"+" "+ attackLevel);
+        }
+        if (defenseLevel >= 50 || defenseLevel < 1) {
+            System.out.println("Sorry. defenseLevel must be between 1 and 50:"+" "+ defenseLevel);
+        }
+        if (hitPoints < 1) {
+            System.out.println("end");
+        }
         Pokemon tempPokemon = new Pokemon();
         return tempPokemon;
     }
